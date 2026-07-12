@@ -82,8 +82,7 @@ export default function Home() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.7, delay: 0.15 }}
                     >
-                        Your Smile,<br />
-                        <span className="hero__title-accent">Our Passion</span>
+                        Your Gateway to Healthy Smiles
                     </motion.h1>
                     <motion.p
                         className="hero__subtitle"
@@ -256,11 +255,11 @@ export default function Home() {
                     >
                         {teamMembers.map((member, i) => (
                             <motion.div className="team-preview__card" key={member.id} variants={fadeUp} custom={i}>
-                                <div className="team-preview__card-image">
+                                {/* <div className="team-preview__card-image">
                                     <div className="team-preview__card-placeholder">
                                         {member.name.split(' ').map(n => n[0]).join('')}
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="team-preview__card-info">
                                     <h3>{member.name}</h3>
                                     <span className="team-preview__card-role">{member.role}</span>

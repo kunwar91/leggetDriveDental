@@ -30,7 +30,7 @@
 
 .hero__label {
     display: inline-block;
-    font-size: var(--text-xs);
+    font-size: var(--text-2xl);
     font-weight: 700;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -341,7 +341,7 @@
 /* ─── Team Preview ────────────────────────────────────── */
 .team-preview__grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: var(--space-xl);
 }
 

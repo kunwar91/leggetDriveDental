@@ -186,11 +186,11 @@ export default function About() {
                     >
                         {teamMembers.map((member, i) => (
                             <motion.div className="about-team__card" key={member.id} variants={fadeUp} custom={i}>
-                                <div className="about-team__card-avatar">
+                                {/* <div className="about-team__card-avatar">
                                     <div className="about-team__card-initials">
                                         {member.name.split(' ').map(n => n[0]).join('')}
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="about-team__card-body">
                                     <h3>{member.name}</h3>
                                     <span className="about-team__card-role">{member.role}</span>

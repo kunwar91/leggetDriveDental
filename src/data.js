@@ -1,7 +1,7 @@
 import {
     FaTooth,
     FaFaceSmile,
-    FaCrown,
+    FaTeethOpen,
 } from 'react-icons/fa6';
 import {
     GiToothbrush,
@@ -104,24 +104,17 @@ export const businessHours = [
 export const teamMembers = [
     {
         id: 1,
-        name: 'Dr. Sarah Mitchell',
+        name: 'Dr. Manmeet Kuckreja',
         role: 'General Dentist & Clinic Director',
-        bio: 'With over 15 years of experience in family and cosmetic dentistry, Dr. Mitchell leads our team with a passion for patient-centered care. She is dedicated to creating comfortable, anxiety-free dental experiences for patients of all ages.',
+        bio: 'With over 15 years of experience in family and cosmetic dentistry, Dr. Kuckreja leads our team with a passion for patient-centered care. She is dedicated to creating comfortable, anxiety-free dental experiences for patients of all ages.',
         specialties: ['General Dentistry', 'Cosmetic Dentistry', 'Implants'],
     },
     {
         id: 2,
-        name: 'Dr. James Park',
-        role: 'Orthodontist',
-        bio: 'Dr. Park specializes in modern orthodontic solutions, including Invisalign and Fast Braces. His gentle approach and eye for detail have helped hundreds of patients achieve the straight, confident smiles they\'ve always wanted.',
+        name: 'Dr. Edit Dragoi',
+        role: 'General Dentist',
+        bio: 'Dr. Dragoi specializes in modern orthodontic solutions, including Invisalign and Fast Braces. His gentle approach and eye for detail have helped hundreds of patients achieve the straight, confident smiles they\'ve always wanted.',
         specialties: ['Invisalign', 'Fast Braces', 'Myobrace'],
-    },
-    {
-        id: 3,
-        name: 'Dr. Priya Nair',
-        role: 'Associate Dentist',
-        bio: 'Dr. Nair brings expertise in restorative and preventive dentistry. Known for her warm bedside manner and meticulous technique, she ensures every patient leaves with a smile they\'re proud of.',
-        specialties: ['Restorative Dentistry', 'Root Canal Therapy', 'Veneers'],
     },
 ];
 
@@ -129,32 +122,26 @@ export const teamMembers = [
 export const testimonials = [
     {
         id: 1,
-        name: 'Amanda R.',
-        text: 'The entire team at Legget Drive Dental is amazing! They made my root canal completely painless, and the follow-up care was exceptional. I actually look forward to my dental visits now.',
+        name: 'NelliSt',
+        text: 'I would highly recommend Legget Drive Dental ! Wonderful service, Professional and extremely nice staff! I always feel happy to come for my appointments.',
         rating: 5,
     },
     {
         id: 2,
-        name: 'Michael T.',
-        text: 'I\'ve been coming here for years and have always been impressed by how up-to-date they are with the latest technology. The office is spotless and the staff is incredibly friendly.',
+        name: 'Sumit Gupta',
+        text: 'I had good experience at this place.I got my dental filling done by Dr. Manmeet, She is very knowledgeable and expert in her field. I highly recommend this place.👍',
         rating: 5,
     },
     {
         id: 3,
-        name: 'Sophia L.',
-        text: 'Dr. Park did an incredible job with my Invisalign treatment. My teeth look perfect now and the whole process was so much easier than I expected. Highly recommend!',
+        name: 'Fathia Hasyim',
+        text: 'It\'s excellent services, Dr Kuckreja always very patient treating my dental problems, and they have very friendly staff. I do recommend people visit her Dental Office, and its easy access.',
         rating: 5,
     },
     {
         id: 4,
-        name: 'David K.',
-        text: 'As someone who has always been nervous about the dentist, this clinic changed everything for me. The team is patient, understanding, and always takes the time to explain every procedure.',
-        rating: 5,
-    },
-    {
-        id: 5,
-        name: 'Jennifer H.',
-        text: 'My kids love coming here! The staff is wonderful with children and really makes the experience fun and comfortable. Best family dental clinic in Kanata, hands down.',
+        name: 'Jonathon Hayden',
+        text: 'Went to this clinic recently and I had a great experience! The staff were super friendly and extremely professional which was really great to see. I would definitely recommend this dentistry.',
         rating: 5,
     },
 ];
@@ -166,7 +153,7 @@ export const featureBadges = [
     { icon: MdMedicalServices, label: 'Direct Insurance Billing' },
     { icon: FaFaceSmile, label: 'Invisalign Provider' },
     { icon: GiToothbrush, label: 'Family Friendly' },
-    { icon: FaCrown, label: 'Same-Day Crowns' },
+    { icon: FaTeethOpen, label: 'Fast Braces' },
 ];
 
 // ─── FAQ ─────────────────────────────────────────────────

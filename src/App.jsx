@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 export default function App() {
   return (
     <HelmetProvider>
-      <BrowserRouter basename="/leggetDriveDental/">
+      <BrowserRouter>
         <ScrollToTop />
         <Navbar />
         <main>

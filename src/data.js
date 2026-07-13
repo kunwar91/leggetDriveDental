@@ -95,7 +95,7 @@ export const businessHours = [
     { day: 'Tuesday', hours: '8:00 AM — 5:00 PM' },
     { day: 'Wednesday', hours: '8:00 AM — 5:00 PM' },
     { day: 'Thursday', hours: '8:00 AM — 5:00 PM' },
-    { day: 'Friday', hours: 'By Appointment' },
+    { day: 'Friday', hours: '9:00 AM — 5:00 PM' },
     { day: 'Saturday', hours: 'By Appointment' },
     { day: 'Sunday', hours: 'Closed' },
 ];

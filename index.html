@@ -18,11 +18,12 @@
     // MIT License
     // https://github.com/rafgraph/spa-github-pages
     (function (l) {
-      if (l.search[1] === 'p' && l.search[2] === '=') {
-        var a = document.createElement('a');
-        a.href = l.href;
+      if (l.search[1] === '/') {
+        var decoded = l.search.slice(1).split('&').map(function (s) {
+          return s.replace(/~and~/g, '&')
+        }).join('?');
         window.history.replaceState(null, null,
-          a.pathname.slice(0, -1) + (a.search || '') + (a.hash || '')
+          l.pathname.slice(0, -1) + decoded + l.hash
         );
       }
     }(window.location));
